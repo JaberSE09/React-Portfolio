@@ -1,7 +1,7 @@
 function AboutMe() {
 
   return (
-    <section className= "section about-section gray-bg" id="about">
+    <section className= "section about-section gray-bg p-5" id="about">
       <div className="container">
         <div className="row align-items-center flex-row-reverse">
           <div className="col-lg-6">
@@ -25,7 +25,7 @@ function AboutMe() {
           </div>
           <div className="col-lg-6">
             <div className="about-avatar">
-              <img className="rounded-circle w-50" src={ require('../images/sajidjaber.jpeg')} /> 
+              <img className="rounded-circle w-50" src={ require('../images/sajidjaber.jpeg')}  alt="avatar"/> 
             </div>
           </div>
         </div>

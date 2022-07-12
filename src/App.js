@@ -1,7 +1,7 @@
 import Head from './components/Head';
 import { Route, Routes } from 'react-router-dom';
 import AboutMe from "./components/AboutMe";
-
+import Footer from './components/Footer';
 function App() {
   return (      
 
@@ -13,7 +13,11 @@ function App() {
             <Route exact path="/Portfolio" component={Portfolio} />
             <Route exact path="/Resume" component={Resume} /> */}
         </Routes>
+
+     <Footer />
 </div>
+
+
   );
 }
 
