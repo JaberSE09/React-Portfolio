@@ -2,8 +2,10 @@
 import { Navbar, Container  } from "react-bootstrap";
 import NavBarLinks from "./NavBarLinks";
 import {Link} from "react-router-dom"
+import Hero from "./Hero"
 function Head() {
     return (
+        <header>
         <Navbar bg="dark" expand="lg">
   <Container >
    <Navbar.Brand className="text-white" as={Link} to="jaberse09.github.io/React-Portfolio">Sajid Jaber</Navbar.Brand>
@@ -13,7 +15,8 @@ function Head() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-
+<Hero />
+</header>
     )
 }
 
