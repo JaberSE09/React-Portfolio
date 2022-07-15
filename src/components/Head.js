@@ -6,7 +6,7 @@ import Hero from "./Hero"
 function Head() {
     return (
         <header>
-        <Navbar bg="dark" expand="lg">
+        <Navbar bg="dark" expand="lg" className="sticky-top">
   <Container >
    <Navbar.Brand className="text-white" as={Link} to="jaberse09.github.io/React-Portfolio">Sajid Jaber</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
