@@ -4,6 +4,7 @@ function Portfolio(){
 
     return (
         <article id="work">
+            <center><h1>Portfolio</h1></center>
         <div className="portfolio">
             <section className="fullimg">
                 <a href="https://jaberse09.github.io/robotco/"> <img className="fullimg" src={require("../images/work1.jpg")}
