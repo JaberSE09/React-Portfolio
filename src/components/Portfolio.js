@@ -3,35 +3,73 @@ import "./Portfolio.css"
 function Portfolio(){
 
     return (
-        <article id="work">
-            <center><h1>Portfolio</h1></center>
-        <div className="portfolio">
-            <section className="fullimg">
-                <a href="https://jaberse09.github.io/robotco/"> <img className="fullimg" src={require("../images/work1.jpg")}
-                        alt="feature website that shows a robot  co company" /></a>
-                </section>
+<div className="portfolio">
+        <div className="card col-3 m-3" >
+          <div className="card-header m-3">Bored? What to do</div>
+        <img className="card-img-top" src={require("../images/project1.png")} alt="bored" />
+        <div className="card-body">
+          <p className="card-text list-group">
+          <a className="btn list-group--item" href="https://jaberse09.github.io/Project-1/">Deployed Website</a>
+          <a className="btn list-group--item" href="https://github.com/JaberSE09/Project-1">Github Website</a>
+          </p>
         </div>
-        <div className="portfolio">
-            <section className="working">
-                <a href="https://jaberse09.github.io/2-02-challenge/"><img className="workimg"
-                        src={require("../images/header.jpg")} alt="portfolio website that features me" />
-                </a>
-            </section>
+      </div>
+         <div className="card col-3 m-3" >
+         <div className="card-header m-3">Love Me</div>
+       <img className="card-img-top" src={require("../images/project2.png")} alt="Love Me " />
+       <div className="card-body">
+         <p className="card-text list-group">
+         <a className="btn list-group--item" href="https://damp-hamlet-43644.herokuapp.com/">Deployed Website</a>
+         <a className="btn list-group--item" href="https://github.com/cthomas265/Love-Me">Github Website</a>
+         </p>
+       </div>
+     </div>
 
-            <section className="working">
-                <a href="https://jaberse09.github.io/02-Challenge-/" ><img className="workimg" src={require("../images/hero.jpg")}
-                    alt="Horizon website shows 3 individuals working around a table" /></a>
-            </section>
-            <section className="working">
-                <a href="https://jaberse09.github.io/Project-1/" ><img className="workimg" src="https://github.com/JaberSE09/Project-1/blob/main/assets/images/fullpage.png?raw=true"
-                    alt="bored website to waste time" /></a>
-            </section>
-            <section className="working">
-                <a href="https://github.com/cthomas265/Love-Me" ><img className="workimg" src="https://raw.githubusercontent.com/cthomas265/Love-Me/main/assets/front-page.png"
-                    alt="Pets website to waste time" /></a>
-            </section>
-        </div>
-        </article>
+     <div className="card col-3 m-3" >
+         <div className="card-header m-3">Tech Blog</div>
+       <img className="card-img-top" src={require("../images/techblog.png")} alt="tech blog " />
+       <div className="card-body">
+         <p className="card-text list-group">
+         <a className="btn list-group--item" href="https://obscure-island-63247.herokuapp.com/">Deployed Website</a>
+         <a className="btn list-group--item" href="https://github.com/JaberSE09/Model-View-Controller--MVC--Challenge--Tech-Blog">Github Website</a>
+         </p>
+       </div>
+     </div>
+
+     <div className="card col-3 m-3" >
+         <div className="card-header m-3">Note Taker</div>
+       <img className="card-img-top" src={require("../images/notetaker.png")} alt="note taker" />
+       <div className="card-body">
+         <p className="card-text list-group">
+         <a className="btn list-group--item" href="https://github.com/JaberSE09/Express.js-Challenge-Note-Taker">Deployed Website</a>
+         <a className="btn list-group--item" href="https://github.com/JaberSE09/Model-View-Controller--MVC--Challenge--Tech-Blog">Github Website</a>
+         </p>
+       </div>
+     </div>
+
+     <div className="card col-3 m-3" >
+         <div className="card-header m-3">Password Generator</div>
+       <img className="card-img-top" src={require("../images/passwordgenerator.png")} alt="password generator " />
+       <div className="card-body">
+         <p className="card-text list-group">
+         <a className="btn list-group--item" href="https://jaberse09.github.io/3-02-challenge/">Deployed Website</a>
+         <a className="btn list-group--item" href="https://github.com/JaberSE09/3-02-challenge">Github Website</a>
+         </p>
+       </div>
+     </div>
+
+     <div className="card col-3 m-3" >
+         <div className="card-header m-3">React Portfolio</div>
+       <img className="card-img-top" src={require("../images/react-portfoliko.png")} alt="portfolio " />
+       <div className="card-body">
+         <p className="card-text list-group">
+         <a className="btn list-group--item" href="https://jaberse09.github.io/React-Portfolio/">Deployed Website</a>
+         <a className="btn list-group--item" href="https://github.com/JaberSE09/React-Portfolio">Github Website</a>
+         </p>
+       </div>
+     </div>
+
+     </div>
     )
 }
 
