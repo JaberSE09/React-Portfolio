@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.49daf324.css",
-    "main.js": "/React-Portfolio/static/js/main.7c4993b4.js",
-    "static/media/project2.png": "/React-Portfolio/static/media/project2.24b845f47f282c63f263.png",
-    "static/media/react-portfoliko.png": "/React-Portfolio/static/media/react-portfoliko.ff8b99835d7d451639f7.png",
-    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.d0a811084e1b4798c5dd.pdf",
-    "static/media/techblog.png": "/React-Portfolio/static/media/techblog.f0a606de6607e5379735.png",
-    "static/media/sajidjaber.jpeg": "/React-Portfolio/static/media/sajidjaber.fb72080a42898e0cfff8.jpeg",
-    "static/media/project1.png": "/React-Portfolio/static/media/project1.04b56227be7600bd77bc.png",
-    "static/media/passwordgenerator.png": "/React-Portfolio/static/media/passwordgenerator.bc4ef61893586a85f72f.png",
-    "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.202f007f7d4ef27605a7.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.49daf324.css.map": "/React-Portfolio/static/css/main.49daf324.css.map",
-    "main.7c4993b4.js.map": "/React-Portfolio/static/js/main.7c4993b4.js.map"
+    "main.css": "/static/css/main.49daf324.css",
+    "main.js": "/static/js/main.77c348d4.js",
+    "static/media/project2.png": "/static/media/project2.24b845f47f282c63f263.png",
+    "static/media/react-portfoliko.png": "/static/media/react-portfoliko.ff8b99835d7d451639f7.png",
+    "static/media/resume.pdf": "/static/media/resume.d0a811084e1b4798c5dd.pdf",
+    "static/media/techblog.png": "/static/media/techblog.f0a606de6607e5379735.png",
+    "static/media/sajidjaber.jpeg": "/static/media/sajidjaber.fb72080a42898e0cfff8.jpeg",
+    "static/media/project1.png": "/static/media/project1.04b56227be7600bd77bc.png",
+    "static/media/passwordgenerator.png": "/static/media/passwordgenerator.bc4ef61893586a85f72f.png",
+    "static/media/notetaker.png": "/static/media/notetaker.202f007f7d4ef27605a7.png",
+    "index.html": "/index.html",
+    "main.49daf324.css.map": "/static/css/main.49daf324.css.map",
+    "main.77c348d4.js.map": "/static/js/main.77c348d4.js.map"
   },
   "entrypoints": [
     "static/css/main.49daf324.css",
-    "static/js/main.7c4993b4.js"
+    "static/js/main.77c348d4.js"
   ]
 }
