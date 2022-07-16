@@ -2,6 +2,7 @@
   "files": {
     "main.css": "/React-Portfolio/static/css/main.49daf324.css",
     "main.js": "/React-Portfolio/static/js/main.2f4efe27.js",
+
     "static/media/project2.png": "/React-Portfolio/static/media/project2.24b845f47f282c63f263.png",
     "static/media/react-portfoliko.png": "/React-Portfolio/static/media/react-portfoliko.ff8b99835d7d451639f7.png",
     "static/media/resume.pdf": "/React-Portfolio/static/media/resume.d0a811084e1b4798c5dd.pdf",
@@ -17,5 +18,10 @@
   "entrypoints": [
     "static/css/main.49daf324.css",
     "static/js/main.2f4efe27.js"
+    "main.7c4993b4.js.map": "/React-Portfolio/static/js/main.7c4993b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49daf324.css",
+    "static/js/main.7c4993b4.js"
   ]
 }
