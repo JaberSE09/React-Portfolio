@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Head />
       <Routes>
-      <Route path="/" element={<AboutMe />} /> 
+      <Route path="/jaberse09.github.io/React-Portfolio" element={<AboutMe />} /> 
       <Route path="/contact" element={<ContactMe />} /> 
       <Route path="/portfolio" element={<Portfolio />} /> 
       <Route path="/resume" element={<Resume />} /> 
