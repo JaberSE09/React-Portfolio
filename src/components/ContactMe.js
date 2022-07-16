@@ -80,9 +80,9 @@ function ContactMe() {
           </form>
 
           <div className="text-center">
-            <a className="btn btn-primary">Send</a>
+            <a href="/" className="btn btn-primary">Send</a>
           </div>
-          
+
         <div className=" text-center">
           <ul className="list-unstyled mb-0">
             <li>
