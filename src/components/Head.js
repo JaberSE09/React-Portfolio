@@ -8,7 +8,7 @@ function Head() {
         <header>
         <Navbar bg="dark" expand="lg" className="sticky-top">
   <Container >
-   <Navbar.Brand className="text-white" as={Link} to="jaberse09.github.io/React-Portfolio">Sajid Jaber</Navbar.Brand>
+   <Navbar.Brand className="text-white" as={Link} to="/React-Portfolio">Sajid Jaber</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
         <NavBarLinks />
