@@ -92,7 +92,7 @@ function ContactMe() {
 
             <li>
               <FontAwesomeIcon icon={faPhone} />
-              <p>+ 01 234 567 89</p>
+              <p>(414)-380-1606</p>
             </li>
 
             <li>
