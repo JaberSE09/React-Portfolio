@@ -9,7 +9,6 @@ import {
   FaJs,
   FaNodeJs,
   FaPhp,
-  FaJava,
 } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
@@ -41,8 +40,10 @@ function Resume() {
               <h1 class="text-white mb-3"> Front End</h1>
               <p class="text-muted">
                 {" "}
-                <FaAngular size={70} /> = <FaReact size={70} />{" "}
-                <FaBootstrap size={70} />
+                <FaAngular size={70} /> = <FaReact size={70} />
+                <FaBootstrap size={70} /> <FaHtml5 size={70} />
+                <FaCss3 size={70} />
+                <FaJs size={70} />
               </p>
             </div>
             <div class="col-md-4 text-center">
@@ -54,19 +55,18 @@ function Resume() {
             </div>
           </div>
         </div>
- 
-      <div className="text-center">
-      <a 
-        href={require("./resume/resume.pdf")}
-        download
-        className="button btn btn-primary m-5 p-3 rounded-circle"
-      >
-        {" "}
-        <FontAwesomeIcon icon={faDownload} />
-        &nbsp;Resume{" "}
-      </a>
-      </div>    
-       </section>
+
+        <div className="text-center">
+          <a
+            href={require("./resume/resume.pdf")}
+            download
+            className="button btn btn-primary m-5 p-3 rounded-circle"
+          >
+            <FontAwesomeIcon icon={faDownload} />
+            &nbsp;Resume
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
