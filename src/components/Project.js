@@ -46,21 +46,27 @@ function Project() {
     },
   ];
 
-  return Projects.map((project, id ) => {
+  return Projects.map((project, id) => {
     return (
-      <div className="card col-3 m-3" key = {project.id}>
+      <div className="card col-3 m-3" key={project.id}>
         <div className="card-header m-3">{project.name}</div>
-        <img
-          className="card-img-top"
-          src={project.image}
-          alt="bored"
-        />
+        <img className="card-img-top" src={project.image} alt="bored" />
         <div className="card-body">
           <p className="card-text list-group">
-            <a className="btn list-group--item" href={project.deployed} target="_blank" rel="noreferrer">
+            <a
+              className="btn list-group--item"
+              href={project.deployed}
+              target="_blank"
+              rel="noreferrer"
+            >
               Deployed Website
             </a>
-            <a className="btn list-group--item" href={project.github} target="_blank" rel="noreferrer">
+            <a
+              className="btn list-group--item"
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+            >
               Github Website
             </a>
           </p>
@@ -69,6 +75,5 @@ function Project() {
     );
   });
 }
-
 
 export default Project;
