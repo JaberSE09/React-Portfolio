@@ -50,7 +50,7 @@ function Resume() {
               <i class="fas fa-database fa-5x text-danger mb-4"></i>
               <h1 class="text-white mb-3"> Databases</h1>
               <p class="text-muted">
-                <DiMysql size={70} /> <SiMongodb size={70} />{" "}
+                <DiMysql size={70} /> <SiMongodb size={70} />
               </p>
             </div>
           </div>
