@@ -43,6 +43,13 @@ function Project() {
       image: require("../images/react-portfolio.png"),
       deployed: "https://jaberse09.github.io/React-Portfolio/",
       github: "https://github.com/JaberSE09/React-Portfolio",
+    },   
+     {
+      id: 7,
+      name: "Cup Of Code",
+      image: require("../images/cupofcode.png"),
+      deployed: "https://polar-headland-37122.herokuapp.com/",
+      github: "https://github.com/T0rgy/cup-of-code",
     },
   ];
 
